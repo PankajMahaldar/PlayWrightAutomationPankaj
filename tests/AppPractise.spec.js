@@ -1,6 +1,6 @@
 const {test,expect} = require('@playwright/test');
 
-test.only('PractiseLogin',async ({page}) =>
+test('PractiseLogin',async ({page}) =>
 {
     const email = "anshika@gmail.com";
     const productName = 'zara coat 3';
