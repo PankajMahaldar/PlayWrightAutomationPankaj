@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-test.only('Browser_Context_Automation',async ({browser}) =>
+test('Browser_Context_Automation',async ({browser}) =>
 {
     const context= await browser.newContext();
     const page = await context.newPage();
